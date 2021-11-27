@@ -1,6 +1,5 @@
 # Oasis Themes
-
-This will be a short explanation on Oasis Themes
+How OASIS Themes work:
 
 There are three types of Themes
 
@@ -12,8 +11,8 @@ There are three types of Themes
 
 You can specify Colors in 2 ways
 
-- `rgb(255,255,255)` as RGB
-- `#FFFFFF` as HEX
+- as RGB, e.g. `rgb(255,255,255)`
+- as HEX, e.g. `#FFFFFF`
 
 ---
 
@@ -54,6 +53,8 @@ Background = ""
 ```
 
 ---
+How to implement the new custom theme:
 
-Now replace the examples with the colors you want and put it in your themes folder.
-Fill in the name of the file in the config and restart the Selfbot.
+- Create a `.toml` (for example `MySuperCoolTheme.toml`) file in your Themes folder and copy an example from this tutorial.
+- Replace the color codes with your own.
+-Enter the theme file's name in your `config.toml` file and don't forget to restart the Selfbot.
